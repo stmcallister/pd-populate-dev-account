@@ -1,12 +1,8 @@
-provider "pagerduty" {
-  token = "your_api_key"
-}
-
 terraform {
   required_providers {
     pagerduty = {
       source  = "PagerDuty/pagerduty"
-      version = "2.3.0"
+      version = "2.4.1"
     }
   }
 }
